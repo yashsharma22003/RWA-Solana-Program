@@ -86,7 +86,6 @@ pub mod real_estate_tokenization {
             },
             signer,
         );
-
         mint_to(mint_to_ctx, amount_of_shares)?;
 
         // Update State
